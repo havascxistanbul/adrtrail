@@ -1,9 +1,9 @@
 ---
-name: spec-first-adr
+name: speclock
 description: Enforce a spec-first engineering discipline. Before any non-trivial implementation, lock a spec, then record an Architecture Decision Record (ADR) for every significant choice, and maintain an append-only CLAUDE_LOG of decisions across the session. Use this skill whenever the user starts a new feature, service, or refactor; mentions "spec", "ADR", "architecture decision", "design doc", "decision log", "lock the spec", or "spec-first"; asks how to structure a build before coding; or wants Claude to stop coding-first and instead think, decide, and document before writing code. Trigger even when the user does not explicitly say "ADR" but is clearly about to make an architectural choice that future readers will need explained.
 ---
 
-# Spec-First ADR
+# SpecLock
 
 This skill installs a working discipline: **decide before you build, and write down why.**
 

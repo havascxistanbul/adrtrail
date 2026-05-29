@@ -1,4 +1,4 @@
-# spec-first-adr
+# SpecLock
 
 A Claude Code plugin that installs a **spec-first engineering discipline**: decide before you build, and write down why.
 
@@ -21,14 +21,14 @@ The ordering is the whole point: **Spec lock → ADR per decision → CLAUDE_LOG
 Add the marketplace, then install:
 
 ```
-/plugin marketplace add mturac/spec-first-adr
-/plugin install spec-first-adr@spec-first-adr
+/plugin marketplace add havascxistanbul/speclock
+/plugin install speclock@speclock
 ```
 
 ### Local development / testing
 
 ```
-claude --plugin-dir ./spec-first-adr-plugin
+claude --plugin-dir ./speclock
 ```
 
 ## Usage
@@ -59,15 +59,17 @@ If your repo already has a docs convention, the skill follows yours instead of i
 | Path | Purpose |
 |------|---------|
 | `commands/spec-first.md` | `/spec-first` slash command to invoke the discipline |
-| `skills/spec-first-adr/SKILL.md` | The discipline and workflow |
-| `skills/spec-first-adr/references/spec-template.md` | Spec template |
-| `skills/spec-first-adr/references/adr-template.md` | ADR template |
-| `skills/spec-first-adr/references/claude-log-format.md` | CLAUDE_LOG format and rules |
-| `skills/spec-first-adr/references/examples.md` | Worked end-to-end example |
+| `skills/speclock/SKILL.md` | The discipline and workflow |
+| `skills/speclock/references/spec-template.md` | Spec template |
+| `skills/speclock/references/adr-template.md` | ADR template |
+| `skills/speclock/references/claude-log-format.md` | CLAUDE_LOG format and rules |
+| `skills/speclock/references/examples.md` | Worked end-to-end example |
 
 ## Safety
 
 This plugin is **pure documentation discipline**. It contains no MCP servers, no hooks, no executable scripts, and makes no network calls. It only reads its own templates and writes Markdown files into your repository. Review the contents before installing — everything it can do is in the files listed above.
+
+See [PRIVACY.md](PRIVACY.md) (no data collected, no telemetry) and [SECURITY.md](SECURITY.md) (threat surface and reporting).
 
 ## License
 

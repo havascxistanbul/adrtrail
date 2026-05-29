@@ -4,12 +4,16 @@ All notable changes to this plugin are documented here. Format follows [Keep a C
 
 ## [1.1.0] - 2026-05-29
 
+### Changed
+- Renamed the plugin to **SpecLock** (skill name `speclock`).
+
 ### Added
 - `/spec-first` slash command to invoke the discipline explicitly.
+- `PRIVACY.md` and `SECURITY.md`.
 - `.gitignore` and `CHANGELOG.md`.
 - Repository and homepage metadata in `plugin.json`.
 
 ## [1.0.0] - 2026-05-29
 
 ### Added
-- Initial release: `spec-first-adr` skill with spec, ADR, and CLAUDE_LOG templates plus a worked example.
+- Initial release: spec-first ADR skill with spec, ADR, and CLAUDE_LOG templates plus a worked example.

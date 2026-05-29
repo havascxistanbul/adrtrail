@@ -4,7 +4,7 @@ description: Start the spec-first ADR discipline — lock a spec before coding, 
 
 Engage the **spec-first ADR discipline** for the task described in `$ARGUMENTS` (or the current request if empty).
 
-Follow the `spec-first-adr` skill exactly, in order:
+Follow the `speclock` skill exactly, in order:
 
 1. **Lock the spec first.** Use `references/spec-template.md`. Write scope, explicit non-goals, interfaces/contracts, and open questions. Do not write implementation code until the user signs off with "locked" / "proceed" / "go". State the lock clearly.
 2. **Write an ADR per significant decision.** Use `references/adr-template.md`. Number sequentially (`ADR-0001`, ...), keep accepted ADRs immutable, supersede instead of rewriting, and always list the downsides you accept.
