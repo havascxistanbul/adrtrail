@@ -1,4 +1,4 @@
-# SpecLock
+# ADRTrail
 
 A Claude Code plugin that installs a **spec-first engineering discipline**: decide before you build, and write down why.
 
@@ -21,14 +21,14 @@ The ordering is the whole point: **Spec lock → ADR per decision → CLAUDE_LOG
 Add the marketplace, then install:
 
 ```
-/plugin marketplace add havascxistanbul/speclock
-/plugin install speclock@speclock
+/plugin marketplace add havascxistanbul/adrtrail
+/plugin install adrtrail@adrtrail
 ```
 
 ### Local development / testing
 
 ```
-claude --plugin-dir ./speclock
+claude --plugin-dir ./adrtrail
 ```
 
 ## Usage
@@ -59,11 +59,11 @@ If your repo already has a docs convention, the skill follows yours instead of i
 | Path | Purpose |
 |------|---------|
 | `commands/spec-first.md` | `/spec-first` slash command to invoke the discipline |
-| `skills/speclock/SKILL.md` | The discipline and workflow |
-| `skills/speclock/references/spec-template.md` | Spec template |
-| `skills/speclock/references/adr-template.md` | ADR template |
-| `skills/speclock/references/claude-log-format.md` | CLAUDE_LOG format and rules |
-| `skills/speclock/references/examples.md` | Worked end-to-end example |
+| `skills/adrtrail/SKILL.md` | The discipline and workflow |
+| `skills/adrtrail/references/spec-template.md` | Spec template |
+| `skills/adrtrail/references/adr-template.md` | ADR template |
+| `skills/adrtrail/references/claude-log-format.md` | CLAUDE_LOG format and rules |
+| `skills/adrtrail/references/examples.md` | Worked end-to-end example |
 
 ## Safety
 

@@ -5,7 +5,7 @@ All notable changes to this plugin are documented here. Format follows [Keep a C
 ## [1.1.0] - 2026-05-29
 
 ### Changed
-- Renamed the plugin to **SpecLock** (skill name `speclock`).
+- Renamed the plugin to **ADRTrail** (skill name `adrtrail`).
 
 ### Added
 - `/spec-first` slash command to invoke the discipline explicitly.

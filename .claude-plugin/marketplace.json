@@ -1,25 +1,25 @@
 {
-  "name": "speclock",
+  "name": "adrtrail",
   "owner": {
     "name": "Mehmet Turac"
   },
   "metadata": {
-    "description": "SpecLock — spec-first ADR discipline plugin for Claude Code.",
+    "description": "ADRTrail — spec-first ADR discipline plugin for Claude Code.",
     "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "speclock",
+      "name": "adrtrail",
       "source": "./",
       "description": "Lock a spec before coding, write an ADR per significant decision, and keep an append-only CLAUDE_LOG. Brings disciplined, auditable decision-making to AI-assisted engineering.",
       "version": "1.1.0",
       "author": {
         "name": "Mehmet Turac"
       },
-      "homepage": "https://github.com/havascxistanbul/speclock",
+      "homepage": "https://github.com/havascxistanbul/adrtrail",
       "license": "MIT",
       "keywords": [
-        "speclock",
+        "adrtrail",
         "spec-first",
         "adr",
         "documentation",

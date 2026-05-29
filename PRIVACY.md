@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**SpecLock** is a pure-documentation Claude Code plugin. It changes how Claude
+**ADRTrail** is a pure-documentation Claude Code plugin. It changes how Claude
 *works* (lock a spec, write ADRs, keep a decision log) — it does not collect, transmit,
 or process any user data.
 
 ## What this plugin does
 
-- Provides a skill (`speclock`), a slash command (`/spec-first`), and four Markdown
+- Provides a skill (`adrtrail`), a slash command (`/spec-first`), and four Markdown
   reference templates that guide Claude's behavior.
 - When triggered, Claude reads those templates and writes Markdown files (`CLAUDE_LOG.md`,
   spec docs, ADRs) **into your own repository, on your machine**.

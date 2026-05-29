@@ -2,7 +2,7 @@
 
 ## Threat surface
 
-**SpecLock** is a documentation-only plugin. Its attack surface is intentionally minimal:
+**ADRTrail** is a documentation-only plugin. Its attack surface is intentionally minimal:
 
 - **No executable code** — no scripts, binaries, or build steps.
 - **No MCP servers** — nothing runs as a server or background process.
